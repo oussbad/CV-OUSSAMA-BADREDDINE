@@ -1,0 +1,49 @@
+% Configuring document class with local font, alternative style, and 10pt font size
+\documentclass[localFont,alternative,10pt]{awesome-source-cv} % Réduction de la taille de la police
+
+% Including necessary packages
+\usepackage{multicol}
+\usepackage{fontawesome}
+
+% Adjusting vertical spacing
+\vspace{-5cm}
+
+% Preventing LaTeX from stretching content at the bottom of the page
+\raggedbottom
+
+% Defining personal information
+\name{\textbf{OUSSAMA BADREDDINE}}{}
+\photo{2.5 cm}{oussama.jpeg}
+\tagline{Frontend Engineering}
+\socialinfo{
+   
+    \linkedin{oussama-badreddine} \\ % Espace après LinkedIn
+    \smartphone{+212 6 57 56 53 19} \\ % Espace après téléphone
+    \email{oussamabadreddine210@gmail.com} \\ % Espace après email
+    \github{oussbad} % GitHub
+}
+
+% Adjusting column separation
+\setlength{\columnsep}{10pt} % Ajustement de l'espacement entre les colonnes
+
+% Beginning the document
+\begin{document}
+\makecvheader
+
+% Including sections
+%--------------------SECTIONS-----------------------------------
+\input{section_headline}
+\input{section_experience_short} 
+\vspace{-0.7cm}
+\input{section_scolarite}
+\input{section_competences}
+
+% Reducing vertical space between sections
+\vspace{0.3cm}
+\begin{multicols}{2}
+    \input{section_langues}
+    \input{section_references}
+\end{multicols}
+% Reducing vertical space after columns
+
+\end{document}
