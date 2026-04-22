@@ -202,7 +202,7 @@
 
 % Render author's github (optional)
 % Usage: \github{<github-nick>}
-\newcommand*{\github}[1]{\sociallink{\githubSymbol}{https://www.github.com/#1}{github.com/#1}}           % Github icon + URL
+\newcommand*{\github}[1]{\socialtext{\githubSymbol}{\href{https://www.github.com/#1}{github.com/#1}}}           % Github icon + URL
 
 % Render author's email (optional)
 % Usage: \email{<email adress>}
