@@ -34,16 +34,22 @@
 %--------------------SECTIONS-----------------------------------
 \input{section_headline}
 \input{section_experience_short} 
-\vspace{-0.7cm}
+\vspace{-0.2cm}
+\input{section_projects_java}
+\vspace{-0.2cm}
 \input{section_scolarite}
 \input{section_competences}
 
 % Reducing vertical space between sections
-\vspace{0.3cm}
-\begin{multicols}{2}
+\vspace{0.15cm}
+\noindent
+\begin{minipage}[t]{0.47\textwidth}
     \input{section_langues}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.47\textwidth}
     \input{section_references}
-\end{multicols}
+\end{minipage}
 % Reducing vertical space after columns
 
 \end{document}
