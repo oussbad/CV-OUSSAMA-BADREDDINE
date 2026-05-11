@@ -1,4 +1,4 @@
-PWD /Users/oussamabadreddine/Downloads/OUSSAMA_BADREDDINE
+PWD /Users/oussamabadreddine/perso/khachl3/shaba/oussama docs/CV-OUSSAMA-BADREDDINE
 INPUT /usr/local/texlive/2025/texmf-var/web2c/luahbtex/lualatex.fmt
 INPUT ./cv.tex
 OUTPUT cv.log
