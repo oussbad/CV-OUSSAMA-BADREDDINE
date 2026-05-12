@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.21.0 (TeX Live 2025)  (format=lualatex 2025.12.24)  11 MAY 2026 21:45
+This is LuaHBTeX, Version 1.21.0 (TeX Live 2025)  (format=lualatex 2025.12.24)  11 MAY 2026 22:07
  restricted system commands enabled.
  file:line:error style messages enabled.
 **cv.tex
@@ -1227,23 +1227,18 @@ Overfull \hbox (4.48311pt too wide) in alignment at lines 4--31
  [][] 
  []
 
-) (./section_scolarite.tex
+) (./section_projects.tex) (./section_scolarite.tex
 Overfull \hbox (416.76819pt too wide) in paragraph at lines 16--19
  []|[]|
  []
 
-) (./section_competences.tex) (./section_langues.tex) (./section_references.tex
-)
-Overfull \hbox (26.59525pt too wide) in paragraph at lines 16--46
-[][]
+) (./section_competences.tex
+Underfull \hbox (badness 1406) in paragraph at lines 13--13
+[]|\TU/SourceSansPro-Light(0)/m/n/10 Mi-cro-ser-vices, BFF Pat-tern, RES-T-ful 
+APIs, Sca-lable Ser-
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 16--46
-
- []
-
-
+) (./section_langues.tex)
 
 [1
 
@@ -1254,24 +1249,24 @@ LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 Package rerunfilecheck Info: File `cv.out' has not changed.
-(rerunfilecheck)             Checksum: AF1F3C90537163BC2A757324EFE70CCD;523.
+(rerunfilecheck)             Checksum: 0CA0F6506B9EA88C284A22DFC83F14E0;554.
 )
 
 Here is how much of LuaTeX's memory you used:
- 30572 strings out of 475506
- 195462,1373583 words of node,token memory allocated
- 1030 words of node memory still in use:
-   5 hlist, 1 vlist, 1 rule, 23 glue, 3 kern, 1 penalty, 2 glyph, 166 attribute,
+ 30570 strings out of 475506
+ 195461,1373583 words of node,token memory allocated
+ 1028 words of node memory still in use:
+   4 hlist, 1 vlist, 1 rule, 24 glue, 3 kern, 1 penalty, 2 glyph, 166 attribute,
  64 glue_spec, 25 attribute_list, 2 write nodes
-   avail lists: 1:2,2:12730,3:2835,4:183,5:2056,6:181,7:12616,8:2,9:2083,10:12,1
-1:1040
- 52844 multiletter control sequences out of 65536+600000
+   avail lists: 1:5,2:12479,3:2844,4:177,5:1969,6:181,7:12532,8:3,9:2023,10:12,1
+1:980
+ 52842 multiletter control sequences out of 65536+600000
  49 fonts using 7230559 bytes
  117i,14n,117p,1190b,915s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <./fonts/SourceSansPro-Light.otf></usr/local/texlive/2025/texmf-dist/fonts/opent
 ype/public/fontawesome/FontAwesome.otf><./fonts/SourceSansPro-Regular.otf><./fon
 ts/SourceSansPro-Semibold.otf>
-Output written on cv.pdf (1 page, 49422 bytes).
+Output written on cv.pdf (1 page, 49138 bytes).
 
 PDF statistics: 69 PDF objects out of 1000 (max. 8388607)
  52 compressed objects within 1 object stream

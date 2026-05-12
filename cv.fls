@@ -278,10 +278,10 @@ OUTPUT /Users/oussamabadreddine/Library/texlive/2025/texmf-var/luatex-cache/gene
 OUTPUT /Users/oussamabadreddine/Library/texlive/2025/texmf-var/luatex-cache/generic/names/luaotfload-lookup-cache.luc
 OUTPUT /Users/oussamabadreddine/Library/texlive/2025/texmf-var/luatex-cache/generic/names/luaotfload-lookup-cache.lua
 OUTPUT /Users/oussamabadreddine/Library/texlive/2025/texmf-var/luatex-cache/generic/names/luaotfload-lookup-cache.luc
+INPUT ./section_projects.tex
 INPUT ./section_scolarite.tex
 INPUT ./section_competences.tex
 INPUT ./section_langues.tex
-INPUT ./section_references.tex
 INPUT /usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 INPUT ./cv.aux
 INPUT ./cv.out
