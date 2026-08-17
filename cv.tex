@@ -1,9 +1,10 @@
 % Configuring document class with local font, alternative style, and 10pt font size
-\documentclass[localFont,alternative,10pt]{awesome-source-cv} % Réduction de la taille de la police
+\documentclass[localFont,alternative,10pt]{awesome-source-cv}
 
 % Including necessary packages
 \usepackage{multicol}
 \usepackage{fontawesome}
+\geometry{top=1.25cm,bottom=1.0cm,left=1.5cm,right=1.5cm}
 
 % Adjusting vertical spacing
 \vspace{-5cm}
@@ -14,17 +15,18 @@
 % Defining personal information
 \name{\textbf{Oussama Badreddine}}{}
 \photo{2.5 cm}{oussama.jpeg}
-\tagline{AI Software Engineer -- Python Backend}
+\tagline{Junior Cloud Engineer | Python \& GCP}
 \socialinfo{
    
     \linkedin{oussama-badreddine} \\ % Espace après LinkedIn
-    \smartphone{+212 6 57 56 53 19} \\ % Espace après téléphone
-    \email{oussamabadreddine210@gmail.com} \\ % Espace après email
+    \smartphone{+212 6 65 01 12 35} \\ % Espace après téléphone
+    \email{oussamabadreddine2002@gmail.com} \\ % Espace après email
     \github{oussbad} % GitHub
 }
 
 % Adjusting column separation
 \setlength{\columnsep}{10pt} % Ajustement de l'espacement entre les colonnes
+\setlength{\rightcolumnlength}{14.6cm}
 
 % Beginning the document
 \begin{document}
@@ -36,13 +38,13 @@
 \input{section_experience_short} 
 \vspace{-0.25cm}
 \input{section_projects}
-\vspace{-0.65cm}
+\vspace{-0.20cm}
 \input{section_scolarite}
 \input{section_competences}
 
 % Reducing vertical space between sections
-\vspace{0.1cm}
-\input{section_langues}
+\vspace{-0.15cm}
+\input{section_langues_certifications}
 % Reducing vertical space after columns
 
 \end{document}
